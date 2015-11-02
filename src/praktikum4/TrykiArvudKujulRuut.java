@@ -1,6 +1,6 @@
 package praktikum4;
 
-public class TrükiArvudKujulRuut {
+public class TrykiArvudKujulRuut {
 public static void main(String[] args) {
 	
 	int tabeliSuurus = 10;

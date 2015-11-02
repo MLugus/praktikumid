@@ -10,8 +10,8 @@ public class Palindroom {
 		System.out.println("Kontrollime kas see s6na on palindroom.");
 		String sona = TextIO.getln();
 		boolean k = checkPalindrome(sona);
-		if (k == false) {
-			System.out.println("See s6na pole palindroom!");
+		if (!k) {
+			System.out.println("See s6na ei ole palindroom!");
 		} else {
 			System.out.println("See s6na on palindroom!");
 		}
